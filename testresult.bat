@@ -1,0 +1,1 @@
+python tensorflow\examples\label_image\label_image.py --graph=tmp\output_graph.pb --label=tmp\output_labels.txt --image=tmp\91076.png --input_layer=Placeholder --output_layer=final_result
