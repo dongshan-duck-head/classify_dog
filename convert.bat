@@ -1,1 +1,0 @@
-tflite_convert --output_file=tmp\retrained.tflite --graph_def_file=tmp\output_graph.pb --input_arrays=Placeholder --output_arrays=final_result

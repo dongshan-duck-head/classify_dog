@@ -1,1 +1,8 @@
-python tensorflow\examples\label_image\label_image.py --graph=tmp\output_graph.pb --label=tmp\output_labels.txt --image=tmp\91076.png --input_layer=Placeholder --output_layer=final_result
+@echo off
+color 0a
+python label_image.py ^
+    --graph= model\moutput_graph.pb ^
+    --label= model\output_labels.txt ^ 
+    --image= data\test.png ^
+    --input_layer= Placeholder ^ 
+    --output_layer= final_result
